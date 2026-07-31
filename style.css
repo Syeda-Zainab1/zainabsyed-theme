@@ -770,3 +770,25 @@ footer h5,
 footer h6 {
     color: #ffffff !important;
 }
+/* Sidebar Logo Alignment */
+.sidebar .site-logo,
+.sidebar img {
+  display: block;
+  margin: 0 auto 20px auto; /* Centers the logo nicely inside the sidebar */
+  max-width: 120px;         /* Adjust width if needed */
+  height: auto;
+}
+
+/* Sidebar Menu Link Colors */
+.sidebar ul li a,
+.sidebar a {
+  color: #ffffff !important;   /* Force link color to clean white */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+/* Sidebar Menu Hover State */
+.sidebar ul li a:hover,
+.sidebar a:hover {
+  color: #000000 !important;   /* Turns black when hovering */
+}
