@@ -792,3 +792,16 @@ footer h6 {
 .sidebar a:hover {
   color: #000000 !important;   /* Turns black when hovering */
 }
+/* Direct Universal Link Target for Sidebar */
+a,
+a:visited {
+    color: #ffffff !important;
+    text-decoration: none !important;
+}
+
+/* Hover State */
+a:hover,
+a:focus,
+a:active {
+    color: #000000 !important;
+}
