@@ -828,3 +828,40 @@ article a:hover,
 a.read-more:hover {
     color: #d63384 !important;
 }
+/* Sidebar Links - Target everything inside the sidebar navigation */
+div[class*="sidebar"] a,
+aside a,
+nav a,
+#sidebar-1 a,
+.widget a {
+    color: #ffffff !important;
+    text-decoration: none !important;
+}
+
+/* Sidebar Links Hover */
+div[class*="sidebar"] a:hover,
+aside a:hover,
+nav a:hover,
+#sidebar-1 a:hover,
+.widget a:hover {
+    color: #000000 !important;
+}
+
+/* Main Post Titles & Read More Links */
+.entry-title a,
+.post-title a,
+article a,
+.more-link,
+a.read-more {
+    color: #1a1a1a !important;
+    text-decoration: none !important;
+}
+
+.entry-title a:hover,
+.post-title a:hover,
+article a:hover,
+.more-link:hover,
+a.read-more:hover {
+    color: #d63384 !important;
+}
+
