@@ -741,3 +741,32 @@ div.comment:first-of-type {
 .comment-reply-title small a:hover {
 	text-decoration: underline;
 }
+footer ul,
+footer ol,
+.wp-block-archives-list,
+.widget_archive ul {
+    padding: 0 !important;
+    margin: 0 !important;
+    list-style: none !important;
+    text-align: center !important;
+}
+
+footer ul li,
+footer ol li,
+.wp-block-archives-list li,
+.widget_archive ul li {
+    display: inline-block !important;
+    text-align: center !important;
+}
+/* Force all footer headings and widget titles to show as white */
+footer .widget-title,
+footer .widgettitle,
+footer .wp-block-heading,
+footer h1, 
+footer h2, 
+footer h3, 
+footer h4, 
+footer h5, 
+footer h6 {
+    color: #ffffff !important;
+}
