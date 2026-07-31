@@ -792,16 +792,39 @@ footer h6 {
 .sidebar a:hover {
   color: #000000 !important;   /* Turns black when hovering */
 }
-/* Direct Universal Link Target for Sidebar */
-a,
-a:visited {
+/* Sidebar Links (White -> Black on hover) */
+.sidebar a,
+.sidebar a:visited,
+#secondary a,
+#secondary a:visited,
+aside a,
+aside a:visited {
     color: #ffffff !important;
     text-decoration: none !important;
+    transition: color 0.3s ease;
 }
 
-/* Hover State */
-a:hover,
-a:focus,
-a:active {
+.sidebar a:hover,
+#secondary a:hover,
+aside a:hover {
     color: #000000 !important;
+}
+
+/* Main Content Post Titles & Read More Links (Dark -> Accent color on hover) */
+.entry-title a,
+.post-title a,
+article a,
+.more-link,
+a.read-more {
+    color: #1a1a1a !important;
+    text-decoration: none !important;
+    transition: color 0.3s ease;
+}
+
+.entry-title a:hover,
+.post-title a:hover,
+article a:hover,
+.more-link:hover,
+a.read-more:hover {
+    color: #d63384 !important;
 }
