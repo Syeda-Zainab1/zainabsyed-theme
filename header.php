@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Blog Site Template">
     <meta name="author" content="https://github.com/Syeda-Zainab1">    
-    <link rel="shortcut icon" href="/wp-content/themes/zainabsyed/assets/images/logo.png"> 
+    <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png"> 
  
 	<?php
 		wp_head();
